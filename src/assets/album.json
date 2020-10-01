@@ -1,9 +1,9 @@
 {
   "id": 1,
-  "artist": "The Prependers",
+  "artist": "Melody",
   "album": {
-    "name": "Opacity Zero",
-    "releaseDate": "September 25, 2014",
+    "name": "You Are Bigger",
+    "releaseDate": "September 25, 2019",
     "coverImage": "assets/opacity-zero.jpg",
     "tracks": [
       {"trackNumber": 1, "trackName": "The Last", "trackLength": "4:48", "trackPrice": 0.99 },
