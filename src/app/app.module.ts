@@ -14,8 +14,8 @@ import {RouterModule, Routes} from '@angular/router';
 
 const appRoutes: Routes = [
     
-{path: 'products', component: ProductListComponent};
-{path: 'product/:id', Component: ProductPageComponent};
+{path: 'products', component: ProductListComponent},
+{path: 'product/:id', Component: ProductPageComponent}
 
 ];
 
@@ -34,7 +34,7 @@ const appRoutes: Routes = [
    // HttpClient
    RouterModule.forRoot(appRoutes)
   ],
-  
+
   providers: [ProductService],
   bootstrap: [AppComponent]
 })
