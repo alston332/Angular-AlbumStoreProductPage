@@ -15,7 +15,8 @@ import {RouterModule, Routes} from '@angular/router';
 const appRoutes: Routes = [
     
 {path: 'products', component: ProductListComponent},
-{path: 'product/:id', Component: ProductPageComponent}
+{path: 'product/:id', Component: ProductPageComponent},
+{path: '', redirectTo: products, pathMatch 'full'}
 
 ];
 
