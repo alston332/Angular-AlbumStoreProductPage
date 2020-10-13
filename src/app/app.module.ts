@@ -28,6 +28,7 @@ const appRoutes: Routes = [
     ProductTracklistingComponent,
     ProductListComponent
   ],
+
   imports: [
     BrowserModule,
     FormsModule,
