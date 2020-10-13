@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import {Http, Response} from '@angular/http';
 import 'rxjs/add/operator/map';
 import { Observable } from 'rxjs/Observable';
-import 'rxjs/Observable/'
+import 'rxjs/Observable/';
 import {Album} from './album';
 import {Product} from './product';
 
@@ -23,9 +23,9 @@ return this._http.get(this._albumUrl).map((response) =>
 
   }
 
-  //getProducts(){
-   // return this._http.get(this._productsUrl).map(response =>
-    //<Product[]>response.json());
+  getProducts(): Observable<Product[]> {
+    return this._http.get(this._productsUrl).map(response =>
+    <Product[]>response.json());
   }
 
 }
