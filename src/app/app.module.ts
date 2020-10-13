@@ -34,8 +34,6 @@ const appRoutes: Routes = [
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes)
-   // HttpClient
-   
   ],
 
   providers: [ProductService],
